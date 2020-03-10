@@ -6,7 +6,7 @@ const middleware = require("./middleware");
 // 引入配置模块
 const defaultConfig = require("./config");
 // 引入自动打开模块
-// const open = require("./utils/open");
+const open = require("./utils/open");
 // 引入命令行配置
 const argv = require("./cli");
 
@@ -29,5 +29,5 @@ server.listen(port, host, err => {
 	);
 
 	// 自动打开网页
-	// open(url);
+	open(url);
 });
