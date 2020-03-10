@@ -1,6 +1,6 @@
 {
   "name": "deploy-static-server",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "NodeJS静态资源服务器",
   "main": "src/index.js",
   "bin": {
